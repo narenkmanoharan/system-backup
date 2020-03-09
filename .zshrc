@@ -4,6 +4,7 @@ export PATH=~/Library/Android/sdk/tools:$PATH
 export PATH=~/Library/Android/sdk/platform-tools:$PATH
 export ANDROID_SDK_ROOT="/usr/local/share/android-sdk"
 export ZSH=/Users/naren/.oh-my-zsh
+export UPDATE_ZSH_DAYS=1
 
 DEFAULT_USER=Naren
 POWERLINE_HIDE_USER_NAME="true"
@@ -12,7 +13,6 @@ powerline-daemon -q
 POWERLINE_BASH_CONTINUATION=1
 POWERLINE_BASH_SELECT=1
 source /Library/Python/2.7/site-packages/powerline/bindings/bash/powerline.sh
-source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 ZSH_THEME="robbyrussell"
 source $ZSH/oh-my-zsh.sh
